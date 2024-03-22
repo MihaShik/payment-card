@@ -1,0 +1,48 @@
+@use './../../assets/constants.scss' as *;
+
+.receipt {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 932px;
+	min-height: 888px;
+	background-image: url('./../../assets/images/check.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.receipt__title {
+		margin-top: 100px;
+		padding: 4px;
+		font-size: $font_size_m;
+		color: $color_gray;
+		font-weight: 600;
+	}
+
+.receipt__price {
+		margin-top: 24px;
+		padding: 4px;
+		font-size: $font_size_xxl;
+		color: $color_dark_grey;
+		font-weight: 700;
+	}
+
+.receipt__price-cents {
+	font-size: $font_size_xl;
+	margin-right: 8px;
+}
+
+
+.receipt__message {
+		width: 596px;
+		margin-top: 44px;
+		padding: 4px;
+
+		font-size: $font_size_l;
+		color: $color_green;
+		text-align: center;
+		font-weight: 600;
+		white-space: pre-wrap;
+
+	}

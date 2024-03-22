@@ -1,0 +1,38 @@
+@use './../../assets/constants.scss' as *;
+
+.content {
+	width: 1080px;
+	height: 1720px;
+	padding: 20px 80px;
+
+	position: relative;
+
+	border-radius: 0px 0px 80px 80px;
+	background-color: $color-white;
+}
+
+.content__header {
+	font-size: $font_size_s;
+	color: $color_gray;
+	text-align: end;
+	font-weight: 600;
+}
+
+.date {
+	justify-content: end;
+	display: flex;
+	gap: 10px;
+}
+
+.content__body {
+	padding-top: 148px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.green-arrow {
+	position: absolute;
+	bottom: 60px;
+	right: 80px;
+}

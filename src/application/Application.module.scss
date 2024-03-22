@@ -1,0 +1,30 @@
+@use '../../src/assets/constants.scss' as *;
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../assets/fonts/gilroy/Gilroy-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../assets/fonts/gilroy/Gilroy-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../assets/fonts/gilroy/Gilroy-Bold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../assets/fonts/gilroy/Gilroy-ExtraBold.ttf);
+  font-weight: 700;
+}
+
+.page {
+	background-color: $color_dark_grey;
+	font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+}
