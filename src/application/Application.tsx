@@ -1,11 +1,7 @@
+import { Arrow, Men } from '../assets/icons';
+import { Button, Content, Footer, Receipt } from '../components/';
 
-import { Button } from '../components/Button'
-import { Content } from '../components/Content'
-import { Footer } from '../components/Footer/index.ts'
-import { Receipt } from '../components/Receipt'
-
-import { Arrow, Men } from '../assets/icons'
-import styles from './Application.module.scss'
+import styles from './Application.module.scss';
 
 const getRandomInt = (min = 1, max = 100) => {
   const rand = min + Math.random() * (max + 1 - min);
@@ -13,12 +9,13 @@ const getRandomInt = (min = 1, max = 100) => {
 };
 
 export const Application = () => {
+  const registerID = getRandomInt(0, 99);
   const totalPrice = {
     rubles: getRandomInt(100, 999),
     kopecks: getRandomInt(0, 99)
   };
-  const registerID = getRandomInt(0, 99);
 
+  
   return (
     <div className={styles['page']}>
       <Content registerID={registerID}>

@@ -1,2 +1,2 @@
-export * from './Receipt'
-export * from './Receipt.types'
+export * from './Receipt';
+

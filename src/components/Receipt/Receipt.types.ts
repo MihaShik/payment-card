@@ -1,4 +1,4 @@
-interface totalPrice {
+interface TotalPrice {
 	rubles: number;
 	kopecks: number;
 }
@@ -6,5 +6,5 @@ interface totalPrice {
 export interface ReceiptProps {
 	title: string;
 	message: string; 
-	totalPrice: totalPrice;
+	totalPrice: TotalPrice;
 }
